@@ -17,7 +17,7 @@ class _CountryPageState extends State<CountryPage> {
 
   List countryData;
   fetchCountryData() async {
-    http.Response response = await http.get(Uri.parse("https://corona.lmao.ninja/v2/countries?sort=cases"));
+    http.Response response = await http.get(Uri.parse("https://disease.sh/v3/covid-19/countries?sort=cases"));
     setState(() {
       countryData = json.decode(response.body);
     });
