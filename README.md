@@ -7,7 +7,7 @@ A new Flutter project.
 COVID-19 APP gives the accurate details of the current situation of COVID in India as well as Worldwide. The app also provides the facility for the booking of Vaccination Slots (India) and also gives the present stats of hospital & beds across different states of India.
 
 You can download this app from the given below link:
-https://drive.google.com/file/d/1uz6MIMMa9OhdBwbzMnioxN2clFDRpCM_/view?usp=sharing
+https://drive.google.com/file/d/1u6vrDSpI2xg-BtJV2V5XyrI8Gl__n7ar/view?usp=sharing
 
 Also you can share your feedback/queries on the following E-Mail:
 covidupdate29@gmail.com
