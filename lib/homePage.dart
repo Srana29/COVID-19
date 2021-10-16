@@ -39,7 +39,7 @@ class _HomePageState extends State<HomePage> {
 
   Map worldData;
   fetchWorldWideData() async {
-    http.Response response = await http.get(Uri.parse("https://corona.lmao.ninja/v2/all"));
+    http.Response response = await http.get(Uri.parse("https://disease.sh/v3/covid-19/all"));       //https://corona.lmao.ninja/v2/all this api is not working
     setState(() {
       worldData = json.decode(response.body);
     });
@@ -47,7 +47,7 @@ class _HomePageState extends State<HomePage> {
 
   List countryData;
   fetchCountryData() async {
-    http.Response response = await http.get(Uri.parse("https://corona.lmao.ninja/v2/countries?sort=cases"));
+    http.Response response = await http.get(Uri.parse("https://disease.sh/v3/covid-19/countries?sort=cases"));
     setState(() {
       countryData = json.decode(response.body);
     });
