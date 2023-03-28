@@ -33,7 +33,7 @@ dependencies:
   http: any
   dynamic_themes: any
   pie_chart: any
-  dio: any
+  dio: ^5.1.0
   font_awesome_flutter: any
   fluttertoast: any
   webview_flutter: any
